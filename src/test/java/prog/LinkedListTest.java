@@ -177,7 +177,7 @@ public class LinkedListTest {
 
         LinkedList listTest = new LinkedList(list);
 
-        assertEquals(listTest.hashCode(), 16625355);
+        assertEquals(listTest.hashCode(), 993);
 
     }
 }

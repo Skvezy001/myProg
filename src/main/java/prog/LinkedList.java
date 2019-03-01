@@ -104,6 +104,6 @@ public class LinkedList {
 
     @Override
     public int hashCode() {
-        return Objects.hash(last, first, size);
+        return Objects.hash(first.getNumber(), size);
     }
 }

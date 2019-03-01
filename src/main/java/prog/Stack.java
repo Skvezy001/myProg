@@ -70,7 +70,7 @@ public class Stack {
 
     @Override
     public int hashCode() {
-        return Objects.hash(last, first, size);
+        return Objects.hash(first.getNumber(), size);
     }
 
 }

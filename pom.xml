@@ -50,10 +50,18 @@
         <version>3.0.0</version>
         <executions>
           <execution>
-            <phase>generate-sources</phase>
+            <phase>verify</phase>
             <goals>
               <goal>check</goal>
             </goals>
+            <configuration>
+              <suppressionsLocation>
+                checkstyle-suppressions
+              </suppressionsLocation>
+              <suppressionsFileExpression>
+                checkstyle.suppressions.file
+              </suppressionsFileExpression>
+            </configuration>
           </execution>
         </executions>
 

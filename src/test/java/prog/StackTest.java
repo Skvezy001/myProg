@@ -75,7 +75,7 @@ public class StackTest {
     public void hashCodeTest() {
         List<List> list1 = new List<>(1);
         Stack st1 = new Stack(list1);
-        assertEquals(st1.hashCode(), 2045492282);
+        assertEquals(st1.hashCode(), 993);
     }
 
 }
