@@ -20,20 +20,6 @@ public class Stack {
         this.size = 1;
     }
 
-    public void push(List<List> element) {
-        if (this.last != null) {
-            this.last.setNext(element);
-            element.setPrevious(this.last);
-            this.last = element;
-            this.size++;
-        } else {
-            this.first.setNext(element);
-            element.setPrevious(this.first);
-            this.last = element;
-            this.size++;
-        }
-    }
-
     public void pop() {
         this.last = this.last.getPrevious();
         size--;
