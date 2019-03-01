@@ -150,7 +150,7 @@ public class LinkedListTest {
 
         LinkedList listTest = new LinkedList(list);
 
-        List<List> list1 = listTest.add(2, list);
+        List<List> list1 = listTest.add(3, list);
 
         LinkedList listTest1 = new LinkedList(list1);
 

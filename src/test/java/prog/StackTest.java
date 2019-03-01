@@ -66,7 +66,7 @@ public class StackTest {
 
     @Test
     public void equalsWithNullValueExpectFalseTest() {
-        List<List> list1 = new List<>(1);
+        List<List> list1 = new List<>(2);
         Stack st1 = new Stack(list1);
         assertEquals(st1.equals(null), false);
     }
